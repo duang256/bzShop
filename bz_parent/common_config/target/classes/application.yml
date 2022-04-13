@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: common-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/yan--yue/shop_config.git
+    bus:
+      refresh:
+        enabled: true #开启自动刷新
+  rabbitmq:
+    addresses: 192.168.8.131
+    username: admin
+    password: admin
+    port: 5672
+    virtual-host: /
+
+
+
+server:
+  port: 9000
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh #在Greenwich.SR2版中需要开启
+
+

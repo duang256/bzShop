@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled:
+          server: true
+          serviceId: common-config
+      name: common-zuul
+      profile: dev
+      uri: http://192.168.1.105:9000
+      label: master

@@ -6,6 +6,14 @@ Spring Boot + Spring Cloud Netflix Eureka + Spring Cloud Netflix Zuul + Spring C
 
 
 
+后台：Vue + VueRouter + axios + element-ui
+
+前台：Vue + VueRouter + axios + swiper
+
+
+
+
+
 ## 模块介绍
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/92c728ba1f4b418fa0066832e11b4dcf.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAX-WHjOaZqOS4pOeCueWNil8=,size_12,color_FFFFFF,t_70,g_se,x_16)
